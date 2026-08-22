@@ -71,12 +71,9 @@ export default function MenuSection() {
               </div>
 
               {/* Text Info */}
-              <h3 className="text-sm sm:text-lg md:text-4xl font-bold text-white transition-colors leading-tight text-center px-1 mb-2">
+              <h3 className="text-sm sm:text-lg md:text-4xl font-bold text-white transition-colors leading-tight text-center px-1">
                 {item.name}
               </h3>
-              <p className="text-white/80 text-xs sm:text-sm md:text-lg text-center px-2 font-medium">
-                {item.desc}
-              </p>
             </motion.div>
           ))}
         </div>

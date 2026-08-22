@@ -36,7 +36,7 @@ export default function Footer() {
             <h3 className="text-lg md:text-2xl font-bold mb-4 md:mb-6 font-serif">Контакти</h3>
             <p className="text-[#FFFFFF]/90 mb-3 text-xs md:text-xl flex items-start gap-2 font-semibold">
               <span className="text-base md:text-2xl leading-none">📍</span> 
-              <a href="#" target="_blank" rel="noreferrer" className="hover:underline text-left">
+              <a href="https://www.google.com/maps/search/вулиця+Келецька,+Вінниця" target="_blank" rel="noreferrer" className="hover:underline text-left">
                 район вулиці Келецької, Вінниця (виїзд по всій Вінниці та області)
               </a>
             </p>
