@@ -54,7 +54,7 @@ export default function AboutSection() {
         >
           <h2 className="text-5xl md:text-8xl font-serif font-bold mb-6 md:mb-8 drop-shadow-sm">Хто ми такі?</h2>
           <p className="text-xl md:text-3xl font-medium max-w-4xl mx-auto leading-relaxed mb-8 md:mb-24">
-            Ми — команда професіоналів, яка знає як повернути речам вигляд як новий. Працюємо з делікатними тканинами, шкірою та меблями так, щоб кожна річ була в безпечних руках.
+            Ми — команда HardClean, професіонали виїзної хімчистки м'яких меблів у Вінниці. Працюємо з делікатними тканинами, шкірою та оббивкою так, щоб кожен диван, крісло чи матрац були в безпечних руках.
           </p>
         </motion.div>
 
@@ -98,7 +98,7 @@ export default function AboutSection() {
                    </svg>
                 </div>
                 <h3 className="text-3xl font-bold mb-4 font-serif">Виїзд за адресою</h3>
-                <p className="text-xl opacity-80 font-medium">Приїжджаємо самі — не треба нікуди возити меблі чи великі речі.</p>
+                <p className="text-xl opacity-80 font-medium">Приїжджаємо самі — вам не потрібно нікуди возити свої меблі.</p>
               </div>
             </SwiperSlide>
 
@@ -111,7 +111,7 @@ export default function AboutSection() {
                    </svg>
                 </div>
                 <h3 className="text-3xl font-bold mb-4 font-serif">Гарантія результату</h3>
-                <p className="text-xl opacity-80 font-medium">Гарантуємо збереження речей та високу якість виконаної чистки.</p>
+                <p className="text-xl opacity-80 font-medium">Гарантуємо збереження меблів та високу якість виконаної чистки.</p>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -158,7 +158,7 @@ export default function AboutSection() {
                </svg>
             </div>
             <h3 className="text-3xl font-bold mb-4 font-serif">Виїзд за адресою</h3>
-            <p className="text-xl opacity-80 font-medium">Приїжджаємо самі — не треба нікуди возити меблі чи великі речі.</p>
+            <p className="text-xl opacity-80 font-medium">Приїжджаємо самі — вам не потрібно нікуди возити свої меблі.</p>
           </motion.div>
 
           {/* Feature 3 */}
@@ -175,7 +175,7 @@ export default function AboutSection() {
                </svg>
             </div>
             <h3 className="text-3xl font-bold mb-4 font-serif">Гарантія результату</h3>
-            <p className="text-xl opacity-80 font-medium">Гарантуємо збереження речей та високу якість виконаної чистки.</p>
+            <p className="text-xl opacity-80 font-medium">Гарантуємо збереження меблів та високу якість виконаної чистки.</p>
           </motion.div>
         </div>
       </div>

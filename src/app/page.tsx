@@ -55,7 +55,7 @@ export default function Home() {
 
           {/* Logo (Center on mobile and desktop) */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl md:text-5xl font-bold text-white tracking-wider cursor-pointer z-50 whitespace-nowrap">
-            <span>DaO Clean</span>
+            <span>HardClean</span>
           </div>
 
           {/* Desktop Right Navigation Links & Cart */}
@@ -117,7 +117,7 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 1.8 }}
             className="text-5xl md:text-7xl xl:text-8xl font-serif font-bold text-[#000000] leading-tight mb-6 max-w-2xl"
           >
-            Звільніть життя від прання.
+            Поверніть меблям вигляд як новий
           </motion.h1>
 
           {/* Subheadline */}
@@ -127,7 +127,7 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 2.0 }}
             className="text-lg md:text-2xl text-[#000000]/65 font-medium mb-10 max-w-lg leading-relaxed"
           >
-            Ми приїжджаємо до вас з усім необхідним — і повертаємо ваші речі бездоганно чистими. Жодних зусиль з вашого боку.
+            Виїзна хімчистка диванів, крісел, матраців та килимів у Вінниці. Приїжджаємо з усім обладнанням — ви навіть пальцем не поворухнете.
           </motion.p>
 
           {/* Buttons */}
@@ -141,13 +141,13 @@ export default function Home() {
               href="#menu"
               className="flex-1 sm:flex-none flex items-center justify-center text-center bg-[#FFC107] hover:bg-[#E6AC00] text-white px-2 sm:px-12 py-3 sm:py-4 rounded-full text-[13px] sm:text-lg font-bold shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 leading-tight"
             >
-              Проглянути послуги
+              Наші послуги
             </a>
             <a
-              href="tel:+380679009315"
+              href="tel:+380962211273"
               className="flex-1 sm:flex-none flex items-center justify-center text-center whitespace-nowrap bg-white/80 hover:bg-white text-[#FFC107] border-2 border-[#FFC107] px-2 sm:px-12 py-3 sm:py-4 rounded-full text-[13px] sm:text-lg font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 leading-tight"
             >
-              067 900 9315
+              096 221 12 73
             </a>
           </motion.div>
         </div>

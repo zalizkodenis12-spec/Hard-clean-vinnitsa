@@ -6,7 +6,7 @@ export default function TermsOfUse() {
       {/* Header */}
       <div className="w-full pt-6 pb-6 bg-[#FFC107] z-50 flex items-center px-6 md:px-16 justify-between shadow-md">
         <Link href="/" className="text-3xl md:text-5xl font-bold text-white tracking-wider cursor-pointer">
-          DaO Clean
+          HardClean
         </Link>
         <Link href="/" className="text-white font-sans font-semibold text-sm tracking-widest uppercase hover:text-gray-200 transition-colors">
           &larr; Назад на головну

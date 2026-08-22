@@ -33,7 +33,7 @@ export default function HistorySection() {
           <span className="text-[#FFC107] font-bold text-xl md:text-2xl tracking-widest uppercase mb-2 md:mb-4 block">01</span>
           <h3 className="text-3xl md:text-5xl font-serif font-bold text-[#000000] mb-4 md:mb-6 leading-tight">Заявка</h3>
           <p className="text-lg md:text-xl text-[#000000]/80 leading-relaxed font-medium">
-            Залишаєте заявку на сайті або просто телефонуєте нам. Наш менеджер оперативно зв'яжеться з вами, зорієнтує по вартості та допоможе підібрати зручний час для приїзду спеціаліста.
+            Залишаєте заявку на сайті, телефонуєте нам, або надсилаєте фото меблів у Direct Instagram чи TikTok — оцінимо вартість за 2 хвилини.
           </p>
         </motion.div>
 
@@ -46,7 +46,7 @@ export default function HistorySection() {
           <span className="text-[#FFC107] font-bold text-xl md:text-2xl tracking-widest uppercase mb-2 md:mb-4 block">02</span>
           <h3 className="text-3xl md:text-5xl font-serif font-bold text-[#000000] mb-4 md:mb-6 leading-tight">Виїзд та обробка</h3>
           <p className="text-lg md:text-xl text-[#000000]/80 leading-relaxed font-medium">
-            Майстер приїжджає до вас із необхідним професійним обладнанням та еко-засобами. Залежно від забруднень, ми виконуємо чистку на місці або забираємо речі до цеху для спеціалізованої обробки.
+            Майстер приїжджає до вас з професійним обладнанням та безпечною хімією. Чистимо м'які меблі на місці, без потреби кудись їх везти.
           </p>
         </motion.div>
 
@@ -59,7 +59,7 @@ export default function HistorySection() {
           <span className="text-[#FFC107] font-bold text-xl md:text-2xl tracking-widest uppercase mb-2 md:mb-4 block">03</span>
           <h3 className="text-3xl md:text-5xl font-serif font-bold text-[#000000] mb-4 md:mb-6 leading-tight">Результат</h3>
           <p className="text-lg md:text-xl text-[#000000]/80 leading-relaxed font-medium">
-            Після чистки та сушіння ми перевіряємо якість роботи. Ви отримуєте речі у чистому вигляді — без плям і запахів. Гарантуємо дбайливе ставлення до тканин і виконання без зайвих клопотів.
+            Після чистки та сушіння меблі виглядають і пахнуть як нові — без плям і запахів. Гарантуємо якість виконаної роботи.
           </p>
         </motion.div>
 

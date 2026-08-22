@@ -8,8 +8,8 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "The Signature Burger",
-  description: "A culinary masterpiece.",
+  title: "HardClean - виїзна хімчистка м'яких меблів у Вінниці",
+  description: "Професійна виїзна хімчистка диванів, матраців, крісел, стільців та килимів у Вінниці та області.",
 };
 
 export default function RootLayout({

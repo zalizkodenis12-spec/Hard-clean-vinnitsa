@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const SERVICES = [
-  { id: 1, name: "Чистка одягу" },
-  { id: 2, name: "Чистка килимів" },
-  { id: 3, name: "Чистка м'яких меблів" },
-  { id: 4, name: "Чистка штор і текстилю" },
+  { id: 1, name: "Хімчистка диванів", desc: "Повертаємо свіжість та ідеальну чистоту вашим меблям." },
+  { id: 2, name: "Глибока чистка матраців", desc: "Видаляємо пилових кліщів, алергени та застарілі плями." },
+  { id: 3, name: "Чистка крісел та пуфів", desc: "Дбайливий професійний догляд за улюбленими меблями." },
+  { id: 4, name: "Чистка м'яких стільців", desc: "Відновлюємо вигляд кухонних та офісних стільців." },
 ];
 
 export default function MenuSection() {
@@ -52,7 +52,7 @@ export default function MenuSection() {
           transition={{ duration: 0.7 }}
           className="text-5xl md:text-8xl font-extrabold text-white mb-12 md:mb-16 tracking-wide drop-shadow-md"
         >
-          Ознайомтеся з послугами DaO Clean
+          Ознайомтеся з послугами HardClean
         </motion.h2>
 
         {/* 2 columns grid for both mobile and desktop */}
@@ -71,21 +71,14 @@ export default function MenuSection() {
               </div>
 
               {/* Text Info */}
-              <h3 className="text-sm sm:text-lg md:text-4xl font-bold text-white transition-colors leading-tight text-center px-1">
+              <h3 className="text-sm sm:text-lg md:text-4xl font-bold text-white transition-colors leading-tight text-center px-1 mb-2">
                 {item.name}
               </h3>
+              <p className="text-white/80 text-xs sm:text-sm md:text-lg text-center px-2 font-medium">
+                {item.desc}
+              </p>
             </motion.div>
           ))}
-        </div>
-
-        {/* See More Button */}
-        <div className="mt-16 md:mt-24">
-          <a 
-            href="#catalog" 
-            className="inline-block bg-[#FFC107] hover:bg-[#E6AC00] text-white px-10 py-4 rounded-full text-lg md:text-xl font-bold tracking-wide shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
-          >
-            Дивитись ще
-          </a>
         </div>
       </div>
 

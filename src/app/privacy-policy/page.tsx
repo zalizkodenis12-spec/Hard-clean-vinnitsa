@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
       {/* Header */}
       <div className="w-full pt-6 pb-6 bg-[#FFC107] z-50 flex items-center px-6 md:px-16 justify-between shadow-md">
         <Link href="/" className="text-3xl md:text-5xl font-bold text-white tracking-wider cursor-pointer">
-          DaO Clean
+          HardClean
         </Link>
         <Link href="/" className="text-white font-sans font-semibold text-sm tracking-widest uppercase hover:text-gray-200 transition-colors">
           &larr; Назад на головну
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
         
         <div className="space-y-6 text-lg leading-relaxed">
           <p>
-            Ця Політика конфіденційності описує, як DaO Clean (далі — «Компанія», «ми») обробляє персональні дані користувачів сайту.
+            Ця Політика конфіденційності описує, як HardClean (далі — «Компанія», «ми») обробляє персональні дані користувачів сайту.
           </p>
 
           <h2 className="text-2xl font-bold text-[#FFC107] mt-8 mb-4">1. Які дані ми збираємо</h2>
