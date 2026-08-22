@@ -50,7 +50,7 @@ export default function MenuSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.7 }}
-          className="text-5xl md:text-8xl font-extrabold text-white dark:text-[#F0F0F0] mb-12 md:mb-16 tracking-wide drop-shadow-md"
+          className="text-5xl md:text-8xl font-extrabold text-white dark:text-[#1F1F1F] mb-12 md:mb-16 tracking-wide drop-shadow-md"
         >
           Ознайомтеся з послугами HardClean
         </motion.h2>
@@ -71,7 +71,7 @@ export default function MenuSection() {
               </div>
 
               {/* Text Info */}
-              <h3 className="text-sm sm:text-lg md:text-4xl font-bold text-white dark:text-[#F0F0F0] transition-colors leading-tight text-center px-1">
+              <h3 className="text-sm sm:text-lg md:text-4xl font-bold text-white dark:text-[#1F1F1F] transition-colors leading-tight text-center px-1">
                 {item.name}
               </h3>
             </motion.div>

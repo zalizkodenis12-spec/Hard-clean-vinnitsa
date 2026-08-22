@@ -33,7 +33,7 @@ export default function Home() {
           
           {/* Mobile Hamburger Icon */}
           <button
-            className="md:hidden flex items-center justify-center p-2 -ml-2 text-white z-[60] relative"
+            className="md:hidden flex items-center justify-center p-2 -ml-2 text-white dark:text-[#1F1F1F] z-[60] relative"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -46,37 +46,37 @@ export default function Home() {
           </button>
 
           {/* Desktop Left Navigation Links */}
-          <div className="hidden md:flex flex-1 w-full items-center justify-evenly font-sans font-extrabold text-sm tracking-widest uppercase text-white pr-8 lg:pr-16">
+          <div className="hidden md:flex flex-1 w-full items-center justify-evenly font-sans font-extrabold text-sm tracking-widest uppercase text-white dark:text-[#1F1F1F] pr-8 lg:pr-16">
             <a href="#menu" className="hover:text-gray-200 transition-colors cursor-pointer whitespace-nowrap">Послуги</a>
             <a href="#reviews" className="hover:text-gray-200 transition-colors cursor-pointer whitespace-nowrap">Відгуки</a>
             <a href="#contacts" className="hover:text-gray-200 transition-colors cursor-pointer whitespace-nowrap">Контакти</a>
           </div>
 
           {/* Logo (Center on mobile and desktop) */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl md:text-5xl font-bold text-white dark:text-[#F0F0F0] tracking-wider cursor-pointer z-50 whitespace-nowrap">
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl md:text-5xl font-bold text-white dark:text-[#1F1F1F]  tracking-wider cursor-pointer z-50 whitespace-nowrap">
             <span>HardClean</span>
           </div>
 
           {/* Desktop Right Navigation Links & Cart */}
-          <div className="hidden md:flex flex-1 w-full items-center justify-evenly font-sans font-extrabold text-sm tracking-widest uppercase text-white pl-8 lg:pl-16 z-[60]">
+          <div className="hidden md:flex flex-1 w-full items-center justify-evenly font-sans font-extrabold text-sm tracking-widest uppercase text-white dark:text-[#1F1F1F] pl-8 lg:pl-16 z-[60]">
             <a href="#about" className="hover:text-gray-200 transition-colors cursor-pointer whitespace-nowrap">Про нас</a>
             <a href="#history" className="hover:text-gray-200 transition-colors cursor-pointer whitespace-nowrap">Як ми працюємо</a>
             <AnimatedThemeToggler
-              className="flex items-center justify-center text-white [&>svg]:w-9 [&>svg]:h-9"
+              className="flex items-center justify-center text-white dark:text-[#1F1F1F] [&>svg]:w-9 [&>svg]:h-9"
               aria-label="Темна тема"
             />
           </div>
 
           {/* Mobile Cart Icon */}
           <AnimatedThemeToggler
-            className="md:hidden ml-auto flex items-center justify-center p-2 -mr-2 text-white z-[60] relative [&>svg]:w-7 [&>svg]:h-7"
+            className="md:hidden ml-auto flex items-center justify-center p-2 -mr-2 text-white dark:text-[#1F1F1F] z-[60] relative [&>svg]:w-7 [&>svg]:h-7"
             aria-label="Темна тема"
           />
         </motion.div>
 
         {/* Mobile Dropdown Menu */}
         {isMenuOpen && (
-          <div className="absolute top-full left-0 w-full bg-[#FFC107] dark:bg-[#C9950A] pb-6 px-6 shadow-xl flex flex-col gap-4 font-sans font-semibold text-lg tracking-widest uppercase text-white md:hidden z-50 border-t border-white/10">
+          <div className="absolute top-full left-0 w-full bg-[#FFC107] dark:bg-[#C9950A] pb-6 px-6 shadow-xl flex flex-col gap-4 font-sans font-semibold text-lg tracking-widest uppercase text-white dark:text-[#1F1F1F] md:hidden z-50 border-t border-white/10">
             <a href="#about" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-200 transition-colors cursor-pointer block mt-2">Про нас</a>
             <a href="#history" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-200 transition-colors cursor-pointer block">Як ми працюємо</a>
             <a href="#menu" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-200 transition-colors cursor-pointer block">Послуги</a>
@@ -110,7 +110,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 1.8 }}
-            className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold text-[#000000] dark:text-[#F0F0F0] leading-tight mb-6 max-w-5xl"
+            className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold text-[#000000] dark:text-[#1F1F1F] leading-tight mb-6 max-w-5xl"
           >
             Поверніть<br />меблям вигляд<br />як новий
           </motion.h1>
@@ -120,7 +120,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 2.0 }}
-            className="text-lg md:text-2xl text-[#000000]/65 dark:text-[#C9C9C9] font-medium mb-10 max-w-lg leading-relaxed"
+            className="text-lg md:text-2xl text-[#000000]/65 dark:text-[#1F1F1F] font-medium mb-10 max-w-lg leading-relaxed"
           >
             Виїзна хімчистка диванів, крісел, матраців та килимів у Вінниці. Приїжджаємо з усім обладнанням — ви навіть пальцем не поворухнете.
           </motion.p>

@@ -44,7 +44,7 @@ export default function AboutSection() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 relative z-10 text-[#FFFFFF] dark:text-[#F0F0F0] flex flex-col items-center">
+      <div className="max-w-7xl mx-auto px-6 relative z-10 text-[#FFFFFF] dark:text-[#1F1F1F] flex flex-col items-center">
         
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -62,7 +62,7 @@ export default function AboutSection() {
         <div className="md:hidden relative w-full max-w-5xl mx-auto px-4 mt-4">
           {/* Custom Drawn Left Arrow */}
           <div className="swiper-button-prev-custom absolute left-0 top-1/2 -translate-y-1/2 z-20 cursor-pointer hover:-translate-x-1 transition-transform">
-             <svg width="40" height="40" viewBox="0 0 100 100" fill="none" stroke="#FFFFFF" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" style={{ filter: "drop-shadow(1px 1px 0px rgba(0,0,0,0.1))" }}>
+             <svg width="40" height="40" viewBox="0 0 100 100" fill="none" stroke="currentColor" className="text-[#FFFFFF] dark:text-[#1F1F1F]" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" style={{ filter: "drop-shadow(1px 1px 0px rgba(0,0,0,0.1))" }}>
                 <path d="M60,15 C45,35 35,45 15,50 C35,55 45,65 60,85 M20,50 C40,48 60,52 85,50" />
              </svg>
           </div>
@@ -118,7 +118,7 @@ export default function AboutSection() {
 
           {/* Custom Drawn Right Arrow */}
           <div className="swiper-button-next-custom absolute right-0 top-1/2 -translate-y-1/2 z-20 cursor-pointer hover:translate-x-1 transition-transform">
-             <svg width="40" height="40" viewBox="0 0 100 100" fill="none" stroke="#FFFFFF" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" style={{ filter: "drop-shadow(1px 1px 0px rgba(0,0,0,0.1))" }}>
+             <svg width="40" height="40" viewBox="0 0 100 100" fill="none" stroke="currentColor" className="text-[#FFFFFF] dark:text-[#1F1F1F]" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" style={{ filter: "drop-shadow(1px 1px 0px rgba(0,0,0,0.1))" }}>
                 <path d="M40,15 C55,35 65,45 85,50 C65,55 55,65 40,85 M80,50 C60,48 40,52 15,50" />
              </svg>
           </div>
