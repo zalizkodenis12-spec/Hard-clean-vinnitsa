@@ -115,9 +115,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 1.8 }}
-            className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold text-[#000000] leading-tight mb-6 max-w-2xl"
+            className="text-5xl md:text-7xl xl:text-8xl font-serif font-bold text-[#000000] leading-tight mb-6 max-w-5xl"
           >
-            Меблям вигляд як новий
+            Меблям вигляд <br className="hidden md:block" /> як новий
           </motion.h1>
 
           {/* Subheadline */}
