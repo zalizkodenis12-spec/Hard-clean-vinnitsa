@@ -4,7 +4,7 @@ export default function TermsOfUse() {
   return (
     <main className="min-h-screen bg-white">
       {/* Header */}
-      <div className="w-full pt-6 pb-6 bg-[#0158C4] z-50 flex items-center px-6 md:px-16 justify-between shadow-md">
+      <div className="w-full pt-6 pb-6 bg-[#FFC107] z-50 flex items-center px-6 md:px-16 justify-between shadow-md">
         <Link href="/" className="text-3xl md:text-5xl font-bold text-white tracking-wider cursor-pointer">
           DaO Clean
         </Link>
@@ -15,30 +15,30 @@ export default function TermsOfUse() {
 
       {/* Content */}
       <div className="max-w-4xl mx-auto px-6 py-16 md:py-24 text-[#000000]">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#0158C4] mb-8">Умови користування сайтом</h1>
+        <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#FFC107] mb-8">Умови користування сайтом</h1>
         
         <div className="space-y-6 text-lg leading-relaxed">
-          <h2 className="text-2xl font-bold text-[#0158C4] mt-8 mb-4">1. Загальні положення</h2>
+          <h2 className="text-2xl font-bold text-[#FFC107] mt-8 mb-4">1. Загальні положення</h2>
           <p>
             Використовуючи цей сайт та оформлюючи заявку, ви погоджуєтесь з цими Умовами.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#0158C4] mt-8 mb-4">2. Оформлення заявки</h2>
+          <h2 className="text-2xl font-bold text-[#FFC107] mt-8 mb-4">2. Оформлення заявки</h2>
           <p>
             Заявка, оформлена через сайт, є попереднім замовленням послуги. Остаточна вартість та терміни виконання узгоджуються з клієнтом після зв'язку менеджера.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#0158C4] mt-8 mb-4">3. Оплата</h2>
+          <h2 className="text-2xl font-bold text-[#FFC107] mt-8 mb-4">3. Оплата</h2>
           <p>
             [Заповниш коли визначишся з форматом оплати — готівка при отриманні / онлайн]
           </p>
 
-          <h2 className="text-2xl font-bold text-[#0158C4] mt-8 mb-4">4. Відповідальність</h2>
+          <h2 className="text-2xl font-bold text-[#FFC107] mt-8 mb-4">4. Відповідальність</h2>
           <p>
             Компанія докладає всіх зусиль для якісного виконання послуг, однак не несе відповідальності за форс-мажорні обставини, що вплинули на терміни виконання.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#0158C4] mt-8 mb-4">5. Зміни умов</h2>
+          <h2 className="text-2xl font-bold text-[#FFC107] mt-8 mb-4">5. Зміни умов</h2>
           <p>
             Компанія залишає за собою право змінювати ці Умови в односторонньому порядку без попереднього повідомлення.
           </p>

@@ -67,7 +67,7 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed top-0 right-0 w-full max-w-[400px] h-[100dvh] bg-[#0158C4] z-[100] flex flex-col shadow-2xl"
+            className="fixed top-0 right-0 w-full max-w-[400px] h-[100dvh] bg-[#FFC107] z-[100] flex flex-col shadow-2xl"
           >
             {/* Wavy Left Edge */}
             <div className="absolute top-0 left-[-60px] md:left-[-100px] h-full w-[61px] md:w-[101px] overflow-hidden pointer-events-none">
@@ -78,7 +78,7 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
               >
                 <path
                   d="M60,0 C120,300 0,900 60,1200 L120,1200 L120,0 Z"
-                  className="fill-[#0158C4]"
+                  className="fill-[#FFC107]"
                 />
               </svg>
             </div>
@@ -103,27 +103,27 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
                 <p className="text-white/70 text-center mt-10">Кошик порожній</p>
               ) : (
                 items.map((item) => (
-                  <div key={item.id} className="bg-[#E8F1FA] rounded-2xl p-4 shadow-lg flex items-center gap-4">
+                  <div key={item.id} className="bg-[#FFF3D6] rounded-2xl p-4 shadow-lg flex items-center gap-4">
                     {/* Placeholder for item image */}
-                    <div className="w-16 h-16 bg-[#0158C4]/10 rounded-xl flex items-center justify-center shrink-0">
+                    <div className="w-16 h-16 bg-[#FFC107]/10 rounded-xl flex items-center justify-center shrink-0">
                     </div>
                     
                     <div className="flex-1">
                       <h4 className="font-bold text-[#000000] mb-1">{item.name}</h4>
-                      <p className="text-[#0158C4] font-bold">{item.price} ₴</p>
+                      <p className="text-[#FFC107] font-bold">{item.price} ₴</p>
                     </div>
 
                     <div className="flex flex-col items-center gap-2 bg-white rounded-xl p-1 border border-black/5 shadow-sm">
                       <button 
                         onClick={() => updateQty(item.id, 1)}
-                        className="text-[#0158C4] font-bold w-6 h-6 flex items-center justify-center hover:bg-gray-100 rounded-lg transition-colors"
+                        className="text-[#FFC107] font-bold w-6 h-6 flex items-center justify-center hover:bg-gray-100 rounded-lg transition-colors"
                       >
                         +
                       </button>
                       <span className="text-sm font-bold text-black">{item.qty}</span>
                       <button 
                         onClick={() => updateQty(item.id, -1)}
-                        className="text-[#0158C4] font-bold w-6 h-6 flex items-center justify-center hover:bg-gray-100 rounded-lg transition-colors"
+                        className="text-[#FFC107] font-bold w-6 h-6 flex items-center justify-center hover:bg-gray-100 rounded-lg transition-colors"
                       >
                         -
                       </button>
@@ -134,14 +134,14 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
             </div>
 
             {/* Footer / Checkout */}
-            <div className="p-6 bg-[#0158C4] border-t border-white/10 relative z-10">
+            <div className="p-6 bg-[#FFC107] border-t border-white/10 relative z-10">
               <div className="flex justify-between items-center mb-6 text-white">
                 <span className="text-lg font-medium opacity-80">Підсумок:</span>
                 <span className="text-3xl font-bold font-serif">{total} ₴</span>
               </div>
               <button 
                 onClick={() => alert("Перехід до оформлення")}
-                className="w-full bg-white text-[#0158C4] py-4 rounded-xl text-lg font-bold shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
+                className="w-full bg-white text-[#FFC107] py-4 rounded-xl text-lg font-bold shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
               >
                 Оформити замовлення
               </button>

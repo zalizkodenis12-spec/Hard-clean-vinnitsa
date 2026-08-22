@@ -24,7 +24,7 @@ export default function Home() {
     <main className="relative w-full bg-white">
       <PageIntro />
       {/* Navbar — classic solid blue */}
-      <div className="absolute top-0 left-0 w-full pt-4 pb-6 bg-[#0158C4] z-50">
+      <div className="absolute top-0 left-0 w-full pt-4 pb-6 bg-[#FFC107] z-50">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -87,7 +87,7 @@ export default function Home() {
 
         {/* Mobile Dropdown Menu */}
         {isMenuOpen && (
-          <div className="absolute top-full left-0 w-full bg-[#0158C4] pb-6 px-6 shadow-xl flex flex-col gap-4 font-sans font-semibold text-lg tracking-widest uppercase text-white md:hidden z-50 border-t border-white/10">
+          <div className="absolute top-full left-0 w-full bg-[#FFC107] pb-6 px-6 shadow-xl flex flex-col gap-4 font-sans font-semibold text-lg tracking-widest uppercase text-white md:hidden z-50 border-t border-white/10">
             <a href="#about" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-200 transition-colors cursor-pointer block mt-2">Про нас</a>
             <a href="#history" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-200 transition-colors cursor-pointer block">Як ми працюємо</a>
             <a href="#menu" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-200 transition-colors cursor-pointer block">Послуги</a>
@@ -99,13 +99,13 @@ export default function Home() {
         {/* Bottom Wavy SVG for Navbar */}
         <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none transform translate-y-[calc(100%-1px)] -scale-y-100">
           <svg viewBox="0 0 1200 120" preserveAspectRatio="none" className="relative block w-full h-[40px] md:h-[60px]">
-            <path d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z" className="fill-[#0158C4]"></path>
+            <path d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z" className="fill-[#FFC107]"></path>
           </svg>
         </div>
       </div>
 
       {/* Hero Section */}
-      <div className="relative w-full min-h-[105vh] md:min-h-[130vh] bg-[#E8F1FA] z-10 flex items-center overflow-hidden">
+      <div className="relative w-full min-h-[105vh] md:min-h-[130vh] bg-[#FFF3D6] z-10 flex items-center overflow-hidden">
         {/* Background image */}
         <div className="absolute inset-0 bg-[url('/hero-shirt.jpeg')] bg-cover bg-center bg-no-repeat" />
         {/* Lighten overlay — stronger */}
@@ -145,13 +145,13 @@ export default function Home() {
           >
             <a
               href="#menu"
-              className="flex-1 sm:flex-none flex items-center justify-center text-center bg-[#0158C4] hover:bg-[#013A80] text-white px-2 sm:px-12 py-3 sm:py-4 rounded-full text-[13px] sm:text-lg font-bold shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 leading-tight"
+              className="flex-1 sm:flex-none flex items-center justify-center text-center bg-[#FFC107] hover:bg-[#E6AC00] text-white px-2 sm:px-12 py-3 sm:py-4 rounded-full text-[13px] sm:text-lg font-bold shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 leading-tight"
             >
               Проглянути послуги
             </a>
             <a
               href="tel:+380679009315"
-              className="flex-1 sm:flex-none flex items-center justify-center text-center whitespace-nowrap bg-white/80 hover:bg-white text-[#0158C4] border-2 border-[#0158C4] px-2 sm:px-12 py-3 sm:py-4 rounded-full text-[13px] sm:text-lg font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 leading-tight"
+              className="flex-1 sm:flex-none flex items-center justify-center text-center whitespace-nowrap bg-white/80 hover:bg-white text-[#FFC107] border-2 border-[#FFC107] px-2 sm:px-12 py-3 sm:py-4 rounded-full text-[13px] sm:text-lg font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 leading-tight"
             >
               067 900 9315
             </a>

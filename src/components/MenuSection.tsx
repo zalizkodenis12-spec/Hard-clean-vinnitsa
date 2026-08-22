@@ -11,7 +11,7 @@ const SERVICES = [
 
 export default function MenuSection() {
   return (
-    <section id="menu" className="relative w-full bg-[#0264D9] z-20 pb-32">
+    <section id="menu" className="relative w-full bg-[#FFC107] z-20 pb-32">
       {/* Top Smoother Wavy SVG Divider */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none transform -translate-y-[calc(100%-1px)]">
         <svg
@@ -21,25 +21,25 @@ export default function MenuSection() {
         >
           <path
             d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z"
-            className="fill-[#0264D9]"
+            className="fill-[#FFC107]"
           ></path>
         </svg>
       </div>
 
       {/* Decorative Background Circles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-        <div className="absolute top-10 left-[10%] w-32 h-32 rounded-full bg-[#013A80] opacity-10"></div>
-        <div className="absolute top-[20%] right-[5%] w-64 h-64 rounded-full bg-[#013A80] opacity-5"></div>
-        <div className="absolute top-[40%] left-[2%] w-48 h-48 rounded-full bg-[#013A80] opacity-10"></div>
-        <div className="absolute top-[60%] right-[15%] w-80 h-80 rounded-full bg-[#013A80] opacity-5"></div>
-        <div className="absolute bottom-[10%] left-[20%] w-96 h-96 rounded-full bg-[#013A80] opacity-10"></div>
-        <div className="absolute bottom-[30%] right-[2%] w-40 h-40 rounded-full bg-[#013A80] opacity-5"></div>
-        <div className="absolute top-[5%] left-[50%] w-24 h-24 rounded-full bg-[#013A80] opacity-10"></div>
-        <div className="absolute top-[80%] left-[5%] w-72 h-72 rounded-full bg-[#013A80] opacity-5"></div>
-        <div className="absolute top-[35%] right-[40%] w-56 h-56 rounded-full bg-[#013A80] opacity-10"></div>
-        <div className="absolute bottom-[5%] right-[45%] w-48 h-48 rounded-full bg-[#013A80] opacity-5"></div>
-        <div className="absolute top-[15%] left-[80%] w-32 h-32 rounded-full bg-[#013A80] opacity-10"></div>
-        <div className="absolute bottom-[50%] left-[40%] w-64 h-64 rounded-full bg-[#013A80] opacity-5"></div>
+        <div className="absolute top-10 left-[10%] w-32 h-32 rounded-full bg-[#E6AC00] opacity-10"></div>
+        <div className="absolute top-[20%] right-[5%] w-64 h-64 rounded-full bg-[#E6AC00] opacity-5"></div>
+        <div className="absolute top-[40%] left-[2%] w-48 h-48 rounded-full bg-[#E6AC00] opacity-10"></div>
+        <div className="absolute top-[60%] right-[15%] w-80 h-80 rounded-full bg-[#E6AC00] opacity-5"></div>
+        <div className="absolute bottom-[10%] left-[20%] w-96 h-96 rounded-full bg-[#E6AC00] opacity-10"></div>
+        <div className="absolute bottom-[30%] right-[2%] w-40 h-40 rounded-full bg-[#E6AC00] opacity-5"></div>
+        <div className="absolute top-[5%] left-[50%] w-24 h-24 rounded-full bg-[#E6AC00] opacity-10"></div>
+        <div className="absolute top-[80%] left-[5%] w-72 h-72 rounded-full bg-[#E6AC00] opacity-5"></div>
+        <div className="absolute top-[35%] right-[40%] w-56 h-56 rounded-full bg-[#E6AC00] opacity-10"></div>
+        <div className="absolute bottom-[5%] right-[45%] w-48 h-48 rounded-full bg-[#E6AC00] opacity-5"></div>
+        <div className="absolute top-[15%] left-[80%] w-32 h-32 rounded-full bg-[#E6AC00] opacity-10"></div>
+        <div className="absolute bottom-[50%] left-[40%] w-64 h-64 rounded-full bg-[#E6AC00] opacity-5"></div>
       </div>
 
       <div className="max-w-5xl mx-auto px-6 pt-16 md:pt-24 text-center relative z-10">
@@ -67,7 +67,7 @@ export default function MenuSection() {
               className="group flex flex-col items-center"
             >
               {/* Light blue placeholder */}
-              <div className="w-full aspect-square bg-[#E8F1FA] rounded-3xl shadow-lg mb-4 md:mb-6 transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl">
+              <div className="w-full aspect-square bg-[#FFF3D6] rounded-3xl shadow-lg mb-4 md:mb-6 transition-transform duration-500 group-hover:scale-105 group-hover:shadow-2xl">
               </div>
 
               {/* Text Info */}
@@ -82,7 +82,7 @@ export default function MenuSection() {
         <div className="mt-16 md:mt-24">
           <a 
             href="#catalog" 
-            className="inline-block bg-[#1A6FD8] hover:bg-[#0158C4] text-white px-10 py-4 rounded-full text-lg md:text-xl font-bold tracking-wide shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
+            className="inline-block bg-[#FFC107] hover:bg-[#E6AC00] text-white px-10 py-4 rounded-full text-lg md:text-xl font-bold tracking-wide shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
           >
             Дивитись ще
           </a>
@@ -98,7 +98,7 @@ export default function MenuSection() {
         >
           <path
             d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z"
-            className="fill-[#0264D9]"
+            className="fill-[#FFC107]"
           ></path>
         </svg>
       </div>

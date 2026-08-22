@@ -35,7 +35,7 @@ const BURGER_IMAGES = [
 
 export default function ReviewsSection() {
   return (
-    <section id="reviews" className="relative w-full bg-[#E8F1FA] z-10 py-16 md:py-32 overflow-hidden min-h-[90vh] flex flex-col justify-center">
+    <section id="reviews" className="relative w-full bg-[#FFF3D6] z-10 py-16 md:py-32 overflow-hidden min-h-[90vh] flex flex-col justify-center">
       
       {/* Infinite scrolling images in the background */}
       <div className="absolute top-1/2 left-0 w-full -translate-y-1/2 flex gap-8 opacity-[0.12] pointer-events-none scale-110">
@@ -68,7 +68,7 @@ export default function ReviewsSection() {
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="w-32 h-1.5 bg-[#0158C4] mx-auto rounded-full"
+            className="w-32 h-1.5 bg-[#FFC107] mx-auto rounded-full"
           ></motion.div>
         </div>
 
@@ -101,7 +101,7 @@ export default function ReviewsSection() {
                     
                     <div className="relative z-10">
                       <h4 className="text-2xl font-bold font-serif text-[#000000]">{review.name}</h4>
-                      <p className="text-[#0158C4] font-bold uppercase tracking-widest text-sm mt-2">{review.role}</p>
+                      <p className="text-[#FFC107] font-bold uppercase tracking-widest text-sm mt-2">{review.role}</p>
                     </div>
                     
                     {/* Quote icon background decoration */}
@@ -143,7 +143,7 @@ export default function ReviewsSection() {
               
               <div className="relative z-10">
                 <h4 className="text-2xl font-bold font-serif text-[#000000]">{review.name}</h4>
-                <p className="text-[#0158C4] font-bold uppercase tracking-widest text-sm mt-2">{review.role}</p>
+                <p className="text-[#FFC107] font-bold uppercase tracking-widest text-sm mt-2">{review.role}</p>
               </div>
               
               {/* Quote icon background decoration */}

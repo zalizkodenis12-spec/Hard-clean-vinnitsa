@@ -24,7 +24,7 @@ export default function PageIntro() {
           <motion.div
             animate={splitting ? { x: "-100vw" } : { x: 0 }}
             transition={{ duration: 1.4, ease: [0.76, 0, 0.24, 1], delay: 0.1 }}
-            className="relative h-full bg-[#0158C4]"
+            className="relative h-full bg-[#FFC107]"
             style={{ width: "50%" }}
           >
             {/* Simple smooth vertical wave */}
@@ -32,7 +32,7 @@ export default function PageIntro() {
               <svg viewBox="0 0 100 1000" preserveAspectRatio="none" className="w-full h-full">
                 <path
                   d="M50,0 C0,333 100,666 50,1000 L0,1000 L0,0 Z"
-                  fill="#0158C4"
+                  fill="#FFC107"
                 />
               </svg>
             </div>
@@ -42,7 +42,7 @@ export default function PageIntro() {
           <motion.div
             animate={splitting ? { x: "100vw" } : { x: 0 }}
             transition={{ duration: 1.4, ease: [0.76, 0, 0.24, 1], delay: 0.1 }}
-            className="relative h-full bg-[#0158C4]"
+            className="relative h-full bg-[#FFC107]"
             style={{ width: "50%" }}
           >
             {/* Simple smooth vertical wave matching the left one */}
@@ -50,7 +50,7 @@ export default function PageIntro() {
               <svg viewBox="0 0 100 1000" preserveAspectRatio="none" className="w-full h-full">
                 <path
                   d="M50,0 C0,333 100,666 50,1000 L100,1000 L100,0 Z"
-                  fill="#0158C4"
+                  fill="#FFC107"
                 />
               </svg>
             </div>
