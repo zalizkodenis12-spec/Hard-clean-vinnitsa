@@ -110,7 +110,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 1.8 }}
-            className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold text-[#000000] dark:text-[#1F1F1F] leading-tight mb-6 max-w-5xl"
+            className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold text-[#000000] dark:text-[#F0F0F0] leading-tight mb-6 max-w-5xl"
           >
             Поверніть<br />меблям вигляд<br />як новий
           </motion.h1>
@@ -120,7 +120,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 2.0 }}
-            className="text-lg md:text-2xl text-[#000000]/65 dark:text-[#1F1F1F] font-medium mb-10 max-w-lg leading-relaxed"
+            className="text-lg md:text-2xl text-[#000000]/65 dark:text-[#C9C9C9] font-medium mb-10 max-w-lg leading-relaxed"
           >
             Виїзна хімчистка диванів, крісел, матраців та килимів у Вінниці. Приїжджаємо з усім обладнанням — ви навіть пальцем не поворухнете.
           </motion.p>

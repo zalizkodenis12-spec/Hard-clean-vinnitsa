@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer id="contacts" className="relative w-full bg-[#FFC107] dark:bg-[#C9950A] text-[#FFFFFF] dark:text-[#1F1F1F] dark:text-[#F0F0F0] pt-8 pb-12 z-20">
+    <footer id="contacts" className="relative w-full bg-[#FFC107] dark:bg-[#C9950A] text-[#FFFFFF] dark:text-[#1F1F1F] pt-8 pb-12 z-20">
       
       {/* Top Wave Divider pointing up to ReviewsSection */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none transform -translate-y-[calc(100%-1px)] z-20 pointer-events-none">
@@ -24,7 +24,7 @@ export default function Footer() {
         {/* Logo and brief */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left mb-6 md:mb-0 md:max-w-[280px]">
           <h2 className="text-6xl font-black text-[#FFFFFF] dark:text-[#1F1F1F] tracking-tighter mb-4 md:mb-6 drop-shadow-sm">HardClean</h2>
-          <p className="text-[#FFFFFF] dark:text-[#1F1F1F]/80 text-lg leading-relaxed font-medium">
+          <p className="text-[#FFFFFF] dark:text-[#1F1F1F] text-lg leading-relaxed font-medium">
             HardClean — виїзна хімчистка м'яких меблів, матраців, килимів та текстилю у Вінниці та області.
           </p>
         </div>
@@ -34,13 +34,13 @@ export default function Footer() {
           {/* Contacts */}
           <div className="flex flex-col items-start w-[48%] md:w-full md:max-w-[280px]">
             <h3 className="text-lg md:text-2xl font-bold mb-4 md:mb-6 font-serif">Контакти</h3>
-            <p className="text-[#FFFFFF] dark:text-[#1F1F1F]/90 mb-3 text-xs md:text-xl flex items-start gap-2 font-semibold">
+            <p className="text-[#FFFFFF] dark:text-[#1F1F1F] mb-3 text-xs md:text-xl flex items-start gap-2 font-semibold">
               <span className="text-base md:text-2xl leading-none">📍</span> 
               <a href="https://www.google.com/maps/search/вулиця+Келецька,+Вінниця" target="_blank" rel="noreferrer" className="hover:underline text-left">
                 район вулиці Келецької, Вінниця (виїзд по всій Вінниці та області)
               </a>
             </p>
-            <p className="text-[#FFFFFF] dark:text-[#1F1F1F]/90 mb-4 md:mb-6 text-xs md:text-xl flex items-center gap-2 font-semibold">
+            <p className="text-[#FFFFFF] dark:text-[#1F1F1F] mb-4 md:mb-6 text-xs md:text-xl flex items-center gap-2 font-semibold">
               <span className="text-base md:text-2xl">📞</span> <a href="tel:+380962211273" className="hover:underline">096 221 12 73</a>
             </p>
           </div>
@@ -71,16 +71,16 @@ export default function Footer() {
       </div>
       
       <div className="w-full flex justify-center mt-8 md:mt-16 relative z-10 px-6">
-        <p className="text-[#FFC107] font-black text-sm md:text-xl bg-white px-6 py-3 md:px-8 md:py-4 rounded-xl md:rounded-2xl inline-block shadow-md text-center tracking-wide">
+        <p className="text-[#FFC107] dark:text-[#E0A500] font-black text-sm md:text-xl bg-white dark:bg-[#121212] px-6 py-3 md:px-8 md:py-4 rounded-xl md:rounded-2xl inline-block shadow-md text-center tracking-wide">
           Працюємо 24/7
         </p>
       </div>
 
-      <div className="w-full flex flex-col md:flex-row justify-center items-center gap-2 md:gap-8 text-center text-[#FFFFFF] dark:text-[#1F1F1F]/60 text-sm mt-12 md:mt-16 pt-8 border-t border-white/20 max-w-7xl mx-auto px-6 font-semibold">
+      <div className="w-full flex flex-col md:flex-row justify-center items-center gap-2 md:gap-8 text-center text-[#FFFFFF] dark:text-[#1F1F1F] text-sm mt-12 md:mt-16 pt-8 border-t border-white/20 dark:border-[#1F1F1F]/20 max-w-7xl mx-auto px-6 font-semibold">
         <span>© 2026 HardClean. Всі права захищено.</span>
         <div className="flex gap-4 mt-2 md:mt-0">
-          <Link href="/privacy-policy" className="hover:text-white hover:underline transition-all">Політика конфіденційності</Link>
-          <Link href="/terms-of-use" className="hover:text-white hover:underline transition-all">Умови користування</Link>
+          <Link href="/privacy-policy" className="hover:text-white dark:hover:text-[#121212] hover:underline transition-all">Політика конфіденційності</Link>
+          <Link href="/terms-of-use" className="hover:text-white dark:hover:text-[#121212] hover:underline transition-all">Умови користування</Link>
         </div>
       </div>
     </footer>
