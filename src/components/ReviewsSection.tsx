@@ -35,7 +35,7 @@ const BURGER_IMAGES = [
 
 export default function ReviewsSection() {
   return (
-    <section id="reviews" className="relative w-full bg-[#FFF3D6] z-10 py-16 md:py-32 overflow-hidden min-h-[90vh] flex flex-col justify-center">
+    <section id="reviews" className="relative w-full bg-[#FFF3D6] dark:bg-[#1E1B16] z-10 py-16 md:py-32 overflow-hidden min-h-[90vh] flex flex-col justify-center">
       
       {/* Infinite scrolling images in the background */}
       <div className="absolute top-1/2 left-0 w-full -translate-y-1/2 flex gap-8 opacity-[0.12] pointer-events-none scale-110">
@@ -64,7 +64,7 @@ export default function ReviewsSection() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-5xl md:text-8xl font-serif font-bold text-[#000000] mb-6 md:mb-8"
+            className="text-5xl md:text-8xl font-serif font-bold text-[#000000] dark:text-[#F0F0F0] mb-6 md:mb-8"
           >
             Що кажуть про нас
           </motion.h2>
@@ -72,7 +72,7 @@ export default function ReviewsSection() {
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="w-32 h-1.5 bg-[#FFC107] mx-auto rounded-full"
+            className="w-32 h-1.5 bg-[#FFC107] dark:bg-[#C9950A] mx-auto rounded-full"
           ></motion.div>
         </div>
 
@@ -89,7 +89,7 @@ export default function ReviewsSection() {
             {[...REVIEWS, ...REVIEWS].map((review, idx) => (
               <SwiperSlide key={idx}>
                 <div className="h-full cursor-grab active:cursor-grabbing px-2 py-4">
-                  <div className="bg-[#FFFFFF] backdrop-blur-xl border border-black/5 p-6 md:p-10 rounded-[2rem] shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 relative group flex flex-col justify-between h-full">
+                  <div className="bg-[#FFFFFF] dark:bg-[#1F1F1F] backdrop-blur-xl border border-black/5 p-6 md:p-10 rounded-[2rem] shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 relative group flex flex-col justify-between h-full">
                     <div>
                       <div className="text-[#FFB800] mb-6 md:mb-8 flex gap-1">
                         {[...Array(review.rating)].map((_, i) => (
@@ -98,14 +98,14 @@ export default function ReviewsSection() {
                           </svg>
                         ))}
                       </div>
-                      <p className="text-lg md:text-2xl font-medium text-[#000000] mb-8 md:mb-12 leading-relaxed italic relative z-10">
+                      <p className="text-lg md:text-2xl font-medium text-[#000000] dark:text-[#C9C9C9] dark:text-[#C9C9C9] mb-8 md:mb-12 leading-relaxed italic relative z-10">
                         "{review.text}"
                       </p>
                     </div>
                     
                     <div className="relative z-10">
-                      <h4 className="text-2xl font-bold font-serif text-[#000000]">{review.name}</h4>
-                      <p className="text-[#FFC107] font-bold uppercase tracking-widest text-sm mt-2">{review.role}</p>
+                      <h4 className="text-2xl font-bold font-serif text-[#000000] dark:text-[#F0F0F0]">{review.name}</h4>
+                      <p className="text-[#FFC107] dark:text-[#E0A500] font-bold uppercase tracking-widest text-sm mt-2">{review.role}</p>
                     </div>
                     
                     {/* Quote icon background decoration */}
@@ -130,7 +130,7 @@ export default function ReviewsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.15 }}
-              className="bg-[#FFFFFF] backdrop-blur-xl border border-black/5 p-10 rounded-[3rem] shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 relative group flex flex-col justify-between h-full"
+              className="bg-[#FFFFFF] dark:bg-[#1F1F1F] backdrop-blur-xl border border-black/5 p-10 rounded-[3rem] shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 relative group flex flex-col justify-between h-full"
             >
               <div>
                 <div className="text-[#FFB800] mb-8 flex gap-1">
@@ -140,14 +140,14 @@ export default function ReviewsSection() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-2xl font-medium text-[#000000] mb-12 leading-relaxed italic relative z-10">
+                <p className="text-2xl font-medium text-[#000000] dark:text-[#C9C9C9] mb-12 leading-relaxed italic relative z-10">
                   "{review.text}"
                 </p>
               </div>
               
               <div className="relative z-10">
-                <h4 className="text-2xl font-bold font-serif text-[#000000]">{review.name}</h4>
-                <p className="text-[#FFC107] font-bold uppercase tracking-widest text-sm mt-2">{review.role}</p>
+                <h4 className="text-2xl font-bold font-serif text-[#000000] dark:text-[#F0F0F0]">{review.name}</h4>
+                <p className="text-[#FFC107] dark:text-[#E0A500] font-bold uppercase tracking-widest text-sm mt-2">{review.role}</p>
               </div>
               
               {/* Quote icon background decoration */}

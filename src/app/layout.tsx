@@ -25,7 +25,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${caveat.className} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-accent-primary selection:text-white">
+      <body className="min-h-full flex flex-col bg-white text-[#1A1A1A] dark:bg-[#121212] dark:text-[#F0F0F0] selection:bg-accent-primary selection:text-white">
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
