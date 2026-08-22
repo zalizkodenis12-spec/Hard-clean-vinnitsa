@@ -8,12 +8,11 @@ import HistorySection from "@/components/HistorySection";
 import AboutSection from "@/components/AboutSection";
 import ReviewsSection from "@/components/ReviewsSection";
 import Footer from "@/components/Footer";
-import CartSidebar from "@/components/CartSidebar";
 import PageIntro from "@/components/PageIntro";
+import { Sun } from "lucide-react";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isCartOpen, setIsCartOpen] = useState(false);
 
   // Scroll to top on page load
   useEffect(() => {
@@ -62,27 +61,21 @@ export default function Home() {
           <div className="hidden md:flex flex-1 w-full items-center justify-evenly font-sans font-extrabold text-sm tracking-widest uppercase text-white pl-8 lg:pl-16 z-[60]">
             <a href="#about" className="hover:text-gray-200 transition-colors cursor-pointer whitespace-nowrap">Про нас</a>
             <a href="#history" className="hover:text-gray-200 transition-colors cursor-pointer whitespace-nowrap">Як ми працюємо</a>
-            <button
-              className="flex items-center justify-center hover:text-gray-200 transition-colors cursor-pointer"
-              onClick={() => setIsCartOpen(true)}
-              aria-label="Кошик"
+            <div
+              className="flex items-center justify-center text-white"
+              aria-label="Темна тема"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-9 h-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-            </button>
+              <Sun className="w-9 h-9" />
+            </div>
           </div>
 
           {/* Mobile Cart Icon */}
-          <button
+          <div
             className="md:hidden ml-auto flex items-center justify-center p-2 -mr-2 text-white z-[60] relative"
-            onClick={() => setIsCartOpen(true)}
-            aria-label="Кошик"
+            aria-label="Темна тема"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
-          </button>
+            <Sun className="w-7 h-7" />
+          </div>
         </motion.div>
 
         {/* Mobile Dropdown Menu */}
@@ -173,9 +166,6 @@ export default function Home() {
 
       {/* Footer */}
       <Footer />
-
-      {/* Shopping Cart Sidebar */}
-      <CartSidebar isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
     </main>
   );
 }
