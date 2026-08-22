@@ -107,7 +107,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative w-full min-h-[105vh] md:min-h-[130vh] bg-[#FFF3D6] z-10 flex items-center overflow-hidden">
         {/* Background image */}
-        <div className="absolute inset-0 bg-[url('/hero-chair.jpeg')] bg-cover bg-center bg-no-repeat" />
+        <div className="absolute inset-0 bg-[url('/hero-chair.jpeg')] bg-cover bg-[85%_center] md:bg-center bg-no-repeat" />
         {/* Lighten overlay — stronger */}
         <div className="absolute inset-0 bg-[#FFF3D6]/70" />
         {/* Gradient from left for text readability */}
