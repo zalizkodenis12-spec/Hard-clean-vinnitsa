@@ -109,9 +109,9 @@ export default function Home() {
         {/* Background image */}
         <div className="absolute inset-0 bg-[url('/hero-chair.jpeg')] bg-cover bg-center bg-no-repeat" />
         {/* Lighten overlay — stronger */}
-        <div className="absolute inset-0 bg-white/65" />
+        <div className="absolute inset-0 bg-[#FFF3D6]/70" />
         {/* Gradient from left for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FFF3D6]/95 via-[#FFF3D6]/70 to-transparent" />
 
         {/* Content */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-16 py-8 flex flex-col items-start mt-[80px] md:mt-0">
