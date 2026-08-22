@@ -28,18 +28,18 @@ export default function MenuSection() {
 
       {/* Decorative Background Circles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-        <div className="absolute top-10 left-[10%] w-32 h-32 rounded-full bg-[#E6AC00] opacity-10"></div>
-        <div className="absolute top-[20%] right-[5%] w-64 h-64 rounded-full bg-[#E6AC00] opacity-5"></div>
-        <div className="absolute top-[40%] left-[2%] w-48 h-48 rounded-full bg-[#E6AC00] opacity-10"></div>
-        <div className="absolute top-[60%] right-[15%] w-80 h-80 rounded-full bg-[#E6AC00] opacity-5"></div>
-        <div className="absolute bottom-[10%] left-[20%] w-96 h-96 rounded-full bg-[#E6AC00] opacity-10"></div>
-        <div className="absolute bottom-[30%] right-[2%] w-40 h-40 rounded-full bg-[#E6AC00] opacity-5"></div>
-        <div className="absolute top-[5%] left-[50%] w-24 h-24 rounded-full bg-[#E6AC00] opacity-10"></div>
-        <div className="absolute top-[80%] left-[5%] w-72 h-72 rounded-full bg-[#E6AC00] opacity-5"></div>
-        <div className="absolute top-[35%] right-[40%] w-56 h-56 rounded-full bg-[#E6AC00] opacity-10"></div>
-        <div className="absolute bottom-[5%] right-[45%] w-48 h-48 rounded-full bg-[#E6AC00] opacity-5"></div>
-        <div className="absolute top-[15%] left-[80%] w-32 h-32 rounded-full bg-[#E6AC00] opacity-10"></div>
-        <div className="absolute bottom-[50%] left-[40%] w-64 h-64 rounded-full bg-[#E6AC00] opacity-5"></div>
+        <div className="absolute top-10 left-[10%] w-32 h-32 rounded-full bg-[#CC8400] opacity-20"></div>
+        <div className="absolute top-[20%] right-[5%] w-64 h-64 rounded-full bg-[#CC8400] opacity-15"></div>
+        <div className="absolute top-[40%] left-[2%] w-48 h-48 rounded-full bg-[#CC8400] opacity-20"></div>
+        <div className="absolute top-[60%] right-[15%] w-80 h-80 rounded-full bg-[#CC8400] opacity-15"></div>
+        <div className="absolute bottom-[10%] left-[20%] w-96 h-96 rounded-full bg-[#CC8400] opacity-20"></div>
+        <div className="absolute bottom-[30%] right-[2%] w-40 h-40 rounded-full bg-[#CC8400] opacity-15"></div>
+        <div className="absolute top-[5%] left-[50%] w-24 h-24 rounded-full bg-[#CC8400] opacity-20"></div>
+        <div className="absolute top-[80%] left-[5%] w-72 h-72 rounded-full bg-[#CC8400] opacity-15"></div>
+        <div className="absolute top-[35%] right-[40%] w-56 h-56 rounded-full bg-[#CC8400] opacity-20"></div>
+        <div className="absolute bottom-[5%] right-[45%] w-48 h-48 rounded-full bg-[#CC8400] opacity-15"></div>
+        <div className="absolute top-[15%] left-[80%] w-32 h-32 rounded-full bg-[#CC8400] opacity-20"></div>
+        <div className="absolute bottom-[50%] left-[40%] w-64 h-64 rounded-full bg-[#CC8400] opacity-15"></div>
       </div>
 
       <div className="max-w-5xl mx-auto px-6 pt-16 md:pt-24 text-center relative z-10">
