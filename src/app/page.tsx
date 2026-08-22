@@ -117,7 +117,7 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 1.8 }}
             className="text-4xl md:text-6xl xl:text-7xl font-serif font-bold text-[#000000] leading-tight mb-6 max-w-5xl"
           >
-            Поверніть меблям<br />вигляд як<br />новий
+            Поверніть<br />меблям вигляд<br />як новий
           </motion.h1>
 
           {/* Subheadline */}
