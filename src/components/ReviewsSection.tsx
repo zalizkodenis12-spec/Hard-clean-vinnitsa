@@ -46,8 +46,12 @@ export default function ReviewsSection() {
         >
           {/* Repeat images a few times to ensure infinite scroll */}
           {[...BURGER_IMAGES, ...BURGER_IMAGES, ...BURGER_IMAGES, ...BURGER_IMAGES].map((src, i) => (
-            <div key={i} className="w-[250px] h-[250px] md:w-[450px] md:h-[450px] rounded-[2rem] md:rounded-[3rem] overflow-hidden drop-shadow-xl">
-              <img src={src} alt="Burger pattern" className="w-full h-full object-cover" />
+            <div key={i} className="w-[250px] h-[250px] md:w-[450px] md:h-[450px] rounded-[2rem] md:rounded-[3rem] overflow-hidden drop-shadow-xl shrink-0">
+              <img 
+                src={src} 
+                alt="Background pattern" 
+                className={`w-full h-full object-cover transition-transform ${i % 2 !== 0 ? '-scale-x-100' : ''}`} 
+              />
             </div>
           ))}
         </motion.div>
