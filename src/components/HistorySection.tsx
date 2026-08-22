@@ -33,7 +33,7 @@ export default function HistorySection() {
           <span className="text-[#FFC107] font-bold text-xl md:text-2xl tracking-widest uppercase mb-2 md:mb-4 block">01</span>
           <h3 className="text-3xl md:text-5xl font-serif font-bold text-[#000000] mb-4 md:mb-6 leading-tight">Заявка</h3>
           <p className="text-lg md:text-xl text-[#000000]/80 leading-relaxed font-medium">
-            Телефонуєте нам або надсилаєте фото меблів у Direct <a href="https://www.instagram.com/hard_clean.vinnytsia/" target="_blank" rel="noreferrer" className="underline hover:text-[#FFC107] transition-colors">Instagram</a>, <a href="https://www.tiktok.com/@hard_clean.vinnytsia" target="_blank" rel="noreferrer" className="underline hover:text-[#FFC107] transition-colors">TikTok</a> чи <a href="https://www.facebook.com/profile.php?id=61582900071021" target="_blank" rel="noreferrer" className="underline hover:text-[#FFC107] transition-colors">Facebook</a> — оцінимо вартість за 2 хвилини. Наш майстер одразу узгодить з вами зручний час виїзду.
+            Телефонуєте нам або надсилаєте фото меблів у Direct <a href="https://www.instagram.com/hard_clean.vinnytsia/" target="_blank" rel="noreferrer" className="hover:underline hover:text-[#FFC107] transition-colors">Instagram</a>, <a href="https://www.tiktok.com/@hard_clean.vinnytsia" target="_blank" rel="noreferrer" className="hover:underline hover:text-[#FFC107] transition-colors">TikTok</a> чи <a href="https://www.facebook.com/profile.php?id=61582900071021" target="_blank" rel="noreferrer" className="hover:underline hover:text-[#FFC107] transition-colors">Facebook</a> — оцінимо вартість за 2 хвилини. Наш майстер одразу узгодить з вами зручний час виїзду.
           </p>
         </motion.div>
 
