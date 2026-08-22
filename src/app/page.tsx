@@ -106,6 +106,12 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="relative w-full min-h-[105vh] md:min-h-[130vh] bg-[#FFF3D6] z-10 flex items-center overflow-hidden">
+        {/* Background image */}
+        <div className="absolute inset-0 bg-[url('/hero-chair.jpeg')] bg-cover bg-center bg-no-repeat" />
+        {/* Lighten overlay — stronger */}
+        <div className="absolute inset-0 bg-white/65" />
+        {/* Gradient from left for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/60 to-transparent" />
 
         {/* Content */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-16 py-8 flex flex-col items-start mt-[80px] md:mt-0">
