@@ -29,3 +29,8 @@ body {
   width: 0px;
   background: transparent;
 }
+
+::view-transition-old(root), ::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}

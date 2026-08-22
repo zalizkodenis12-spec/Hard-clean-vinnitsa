@@ -7,6 +7,8 @@ const caveat = Caveat({
   display: "swap",
 });
 
+import { ThemeProvider } from "@/components/ThemeProvider";
+
 export const metadata: Metadata = {
   title: "HardClean - виїзна хімчистка м'яких меблів у Вінниці",
   description: "Професійна виїзна хімчистка диванів, матраців, крісел, стільців та килимів у Вінниці та області.",
@@ -19,11 +21,18 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="uk"
+      suppressHydrationWarning
       className={`${caveat.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground selection:bg-accent-primary selection:text-white">
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false}
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
